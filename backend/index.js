@@ -15,7 +15,7 @@ app.use(cors()); //Using this our react project will connect to express app in 4
 
 //Initializing our database, we'll be using mongo db atlas database
 //Database connection with mongodb     
-mongoose.connect("mongodb+srv://rohitbahadurbista:Y5MyEgi8k9yy730d@cluster0.0rse1zl.mongodb.net/anecommercewebsite")
+mongoose.connect("mongodb+srv://rohitbahadurbista:<password>@cluster0.0rse1zl.mongodb.net/anecommercewebsite")
 //Now Mongo db is connected with our express server
 
 // API Creation
